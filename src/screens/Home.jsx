@@ -1,12 +1,13 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import { View } from 'react-native';
+import Example from '../components/Home/Tasks';
 
-const Home = () => {
+const App = () => {
   return (
     <View>
-      <Text className="text-xl">Home</Text>
+      <Example />
     </View>
   );
 };
 
-export default Home;
+export default App;
