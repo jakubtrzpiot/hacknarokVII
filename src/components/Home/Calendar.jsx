@@ -14,7 +14,6 @@ const Calendar = () => (
       style={{ height: 150, paddingTop: 20, paddingBottom: 10 }}
       selectedDate={new Date()}
       calendarHeaderStyle={{ color: 'white' }}
-      calendarColor={'#0D324D'}
       dateNumberStyle={{ color: 'white' }}
       dateNameStyle={{ color: 'white' }}
       highlightDateNumberStyle={{ color: '#a188a6' }}
