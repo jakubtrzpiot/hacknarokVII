@@ -6,7 +6,7 @@ import Profile from '../screens/Profile';
 
 const Tab = createMaterialBottomTabNavigator();
 
-const BottomTab = () => {
+const MainNavigator = () => {
   return (
     <Tab.Navigator>
       <Tab.Screen name="Home" component={Home} />
@@ -17,4 +17,4 @@ const BottomTab = () => {
   );
 };
 
-export default BottomTab;
+export default MainNavigator;

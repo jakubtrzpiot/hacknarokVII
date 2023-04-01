@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949027922825",
+    "project_id": "hacknarok-betternow",
+    "storage_bucket": "hacknarok-betternow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949027922825:android:bba40957118445ee0db758",
+        "android_client_info": {
+          "package_name": "com.procrastinay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949027922825-cngr01s8f24g0d35n5el7f7sik3lrq35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbbHaocRwH1Vma-TF4WwiL8-WgPTf5xpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949027922825-5tmk131b0nf07ktm5pbnk6ii1i6s78f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
