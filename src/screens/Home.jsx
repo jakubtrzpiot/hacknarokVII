@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
-import Example from '../components/Home/Tasks';
+import Calendar from '../components/Home/Calendar';
 
 const App = () => {
   return (
     <View>
-      <Example />
+      <Calendar />
     </View>
   );
 };

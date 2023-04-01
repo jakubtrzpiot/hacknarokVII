@@ -23,9 +23,9 @@ const App = () => {
 
   if (initializing) return <ActivityIndicator size="large" color="#000" />;
 
-  if (!user) {
-    return <LogIn />;
-  }
+  // if (!user) {
+  //   return <LogIn />;
+  // }
 
   return (
     <NavigationContainer>

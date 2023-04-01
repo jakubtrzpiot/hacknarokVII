@@ -1,10 +1,10 @@
 import { View, StyleSheet } from 'react-native';
 import CalendarStrip from 'react-native-calendar-strip';
 
-const Example = () => (
+const Calendar = () => (
   <View style={styles.container}>
     <CalendarStrip
-      calendarAnimation={{ type: 'sequence', duration: 30 }}
+      scrollable
       daySelectionAnimation={{
         type: 'border',
         duration: 2,
@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
   container: { flex: 1 },
 });
 
-export default Example;
+export default Calendar;
