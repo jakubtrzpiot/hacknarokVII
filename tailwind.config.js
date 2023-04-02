@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        prussianblue: '#0d324d',
+        primary: '#141923',
+        secondary: '#242935',
+        accent: '#afe9fa',
+        light: '#313541',
+        bright: '#eaecf1',
       },
     },
   },
