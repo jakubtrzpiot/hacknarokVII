@@ -8,7 +8,7 @@ const Home = () => {
     new Date().toJSON().split('T')[0],
   );
   return (
-    <View>
+    <View className="flex-1 bg-black">
       <View>
         <Pressable
           onPress={() =>
@@ -22,8 +22,8 @@ const Home = () => {
           dateNumberStyle={{color: 'white'}}
           dateNameStyle={{color: 'white'}}
           onDateSelected={date => setSelectedDate(date.format('YYYY-MM-DD'))}
-          highlightDateNumberStyle={{color: '#598392'}}
-          highlightDateNameStyle={{color: '#598392'}}
+          highlightDateNumberStyle={{color: '#7f5a83'}}
+          highlightDateNameStyle={{color: '#7f5a83'}}
           iconContainer={{flex: 0.1}}
           iconStyle={{width: 0, height: 0}}
         />

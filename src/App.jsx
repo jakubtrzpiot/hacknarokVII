@@ -22,7 +22,7 @@ const App = () => {
   }, []);
 
   if (initializing)
-    return <ActivityIndicator className="flex-1" size={60} color="#000" />;
+    return <ActivityIndicator className="flex-1" size={70} color="#fff" />;
 
   // if (!user) {
   //   return <LogIn />;

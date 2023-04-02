@@ -11,32 +11,35 @@ const MainNavigator = () => {
   return (
     <Tab.Navigator
       labeled={false}
-      barStyle={{backgroundColor: '#242935', tabBarColor: '#141923'}}>
+      activeColor="#000"
+      inactiveColor="#000"
+      barStyle={{backgroundColor: '#000', tabBarColor: '#000'}}>
       <Tab.Screen
         name="Home"
         options={{
-          tabBarIcon: () => <Icon name="calendar" size={20} />,
+          tabBarIcon: () => <Icon name="calendar" size={30} />,
         }}
         component={Home}
       />
       <Tab.Screen
         name="Pomodoro"
         options={{
-          tabBarIcon: () => <Icon name="clock" size={20} />,
+          tabBarColor: '#fff',
+          tabBarIcon: () => <Icon name="clock" size={30} />,
         }}
         component={Pomodoro}
       />
       <Tab.Screen
         name="Challenges"
         options={{
-          tabBarIcon: () => <Icon name="award" size={20} />,
+          tabBarIcon: () => <Icon name="award" size={30} />,
         }}
         component={Challenges}
       />
       <Tab.Screen
         name="Profile"
         options={{
-          tabBarIcon: () => <Icon name="user" size={20} />,
+          tabBarIcon: () => <Icon name="user" size={30} />,
         }}
         component={Profile}
       />

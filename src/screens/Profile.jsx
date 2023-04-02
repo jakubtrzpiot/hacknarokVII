@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView } from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 import Icon from 'react-native-vector-icons/dist/EvilIcons';
 
 const Profile = () => {
@@ -14,7 +14,7 @@ const Profile = () => {
       title: 'Get 10 day hot streak.',
       icon: 'trophy',
     },
-    { category: 'Task Management', title: 'Pin a task.', icon: 'paperclip' },
+    {category: 'Task Management', title: 'Pin a task.', icon: 'paperclip'},
     {
       category: 'Task Management',
       title: 'Bring to fruition your first task',
@@ -53,21 +53,17 @@ const Profile = () => {
   ];
 
   return (
-    <View className="flex-col items-center justify-center my-10">
-      <View>
-        <Text className="text-3xl">Hot Streak</Text>
-      </View>
+    <View className="flex-1 bg-black flex-col items-center justify-center">
       <View className="border-y-0 border-black w-screen items-center p-10">
-        <Text className="text-3xl">Achievement</Text>
+        <Text className="text-3xl">Achievements</Text>
       </View>
-      <ScrollView>
+      <ScrollView className="flex">
         {achievements.map((item, index) => (
           <View
             key={index}
-            className="flex-row border-y-0 border-black w-screen items-center p-5 m-2"
-          >
+            className="flex-row w-screen items-center p-5 m-1 border-accent\50">
             <Icon name={item.icon} size={70} />
-            <Text className="it">{item.title}</Text>
+            <Text className="ml-5 text-lg">{item.title}</Text>
           </View>
         ))}
       </ScrollView>
