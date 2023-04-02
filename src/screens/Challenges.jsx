@@ -1,12 +1,7 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import {Text} from 'react-native';
 
 const Challenges = () => {
-  return (
-    <View>
-      <Text>Challenges</Text>
-    </View>
-  );
+  return <Text>Challenges</Text>;
 };
 
 export default Challenges;

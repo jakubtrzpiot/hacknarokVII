@@ -1,12 +1,7 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import {Text} from 'react-native';
 
 const Pomodoro = () => {
-  return (
-    <View>
-      <Text>Pomodoro</Text>
-    </View>
-  );
+  return <Text>Pomodoro</Text>;
 };
 
 export default Pomodoro;

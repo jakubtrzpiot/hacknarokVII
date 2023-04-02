@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {ActivityIndicator} from 'react-native';
+import {ActivityIndicator, StatusBar} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import auth from '@react-native-firebase/auth';
 import LogIn from './screens/LogIn';
@@ -21,7 +21,8 @@ const App = () => {
     return subscriber; // unsubscribe on unmount
   }, []);
 
-  if (initializing) return <ActivityIndicator size="large" color="#000" />;
+  if (initializing)
+    return <ActivityIndicator className="flex-1" size={60} color="#000" />;
 
   // if (!user) {
   //   return <LogIn />;
@@ -29,6 +30,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
+      <StatusBar barStyle="dark-content" />
       <MainNavigator />
     </NavigationContainer>
   );

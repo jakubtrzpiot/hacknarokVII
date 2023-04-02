@@ -1,12 +1,7 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 
 const SignUp = () => {
-  return (
-    <View>
-      <Text>SignUp</Text>
-    </View>
-  );
+  return <View className="flex-1 flex items-center justify-center"></View>;
 };
 
 export default SignUp;
